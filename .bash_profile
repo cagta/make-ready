@@ -27,7 +27,7 @@ alias yildiz = 'chromium-browser --proxy-server="libpxy.cc.yildiz.edu.tr:81"'
 # Simple shortcuts.
 alias ccat='source-highlight --out-format=esc -o STDOUT -i'
 alias bhelp='ccat ~/.bash_profile'
-alias bref='cp ~/Code/bash-profile/.bash_profile ~/; source ~/.bash_profile'
+alias bref='cp ~/Code/bash-profile/.bash_profile ~/; source ~/.bashrc'
 alias grg='cd ~/Code'
 
 # Database related
