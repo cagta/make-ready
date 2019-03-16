@@ -1,3 +1,19 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific environment
+PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+export PATH
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+# .profile
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
 alias python='python3'
@@ -7,7 +23,7 @@ alias python2='/usr/bin/python2.7'
 alias ls='ls -AlhG --color=always'
 alias ll='ls'
 alias ..='cd ..'
-
+alias yildiz = 'chromium-browser --proxy-server="libpxy.cc.yildiz.edu.tr:81"'
 # Simple shortcuts.
 alias ccat='source-highlight --out-format=esc -o STDOUT -i'
 alias bhelp='ccat ~/.bash_profile'
