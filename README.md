@@ -1,6 +1,6 @@
-# bash-profile
-My very own .bash-profile file that contains some useful aliases.
+# make-ready
+I would like to prepare simple bash script which will prepare my development enviroment.
 
-**Where to put?**
+### How can you use ?
+I tried to put comments into script as much as possible. You can easily modify it according to your needs.
 
-*~/.bash_profile*
